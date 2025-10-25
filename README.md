@@ -124,7 +124,9 @@ The devices below are fully feature supported by OpenRazer, which means all avai
 | Razer Blade 14 (2025)                                         |  1532:02C5  |
 | Razer Blade 16 (2025)                                         |  1532:02C6  |
 | Razer Blade 18 (2025)                                         |  1532:02C7  |
-| Razer BlackWidow V3 Tenkeyless                                |  1532:0A24  |
+| Razer BlackWidow V4 Low-Profile TKL HyperSpeed (Wireless)		|  1532:02D2  |
+| Razer BlackWidow V4 Low-Profile TKL HyperSpeed (Wired)		|  1532:02D4  |
+| Razer BlackWidow V3 Tenkeyless                                |  1532:02D4  |
 
 ### Mice
 | Device                                                        | USB VID:PID |

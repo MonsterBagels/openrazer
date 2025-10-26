@@ -234,6 +234,17 @@ static const struct razer_key_translation chroma_keys_8[] = {
     { 0 }
 };
 
+// Razer BlackWidow V4 Low-Profile Tenkeyless Hyperspeed
+static const struct razer_key_translation chroma_keys_9[] = {
+    { KEY_F8, KEY_SLEEP },
+    { KEY_F9, RAZER_MACRO_KEY },
+    { KEY_F10, RAZER_GAME_KEY },
+    { KEY_F11, RAZER_BRIGHTNESS_DOWN },
+    { KEY_F12, RAZER_BRIGHTNESS_UP },
+    { KEY_INSERT, KEY_SYSRQ },
+    { 0 }
+};
+
 /**
  * Essentially search through the struct array above.
  */

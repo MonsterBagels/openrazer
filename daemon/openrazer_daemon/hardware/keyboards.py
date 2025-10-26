@@ -997,14 +997,15 @@ class RazerHuntsman(_RippleKeyboard):
 
     DEVICE_IMAGE = "https://assets.razerzone.com/eeimages/support/products/1360/1360_huntsman-3.png"
 
-class RazerBlackWidowV4LPTKLWired(_RippleKeyboard):
+class RazerBlackWidowV4LPTKLWirelss(_RippleKeyboard):
     """
-    Class for the Razer BlackWidow V4 Low-Profile Tenkeyless HyperSpeed Wired
+    Class for the Razer BlackWidow V4 Low-Profile Tenkeyless HyperSpeed Wireless
     """
-    EVENT_FILE_REGEX = re.compile(r'.*Razer_Razer_BlackWidow_V4_Low-profile_Tenkeyless_HyperSpeed-event-kbd')
+    EVENT_FILE_REGEX = re.compile(r'.*Razer_Razer_BlackWidow_V4_Low-profile_Tenkeyless_HyperSpeed(_\d+)?(-if01)?-event-mouse')
+
 
     USB_VID = 0x1532
-    USB_PID = 0x02D4
+    USB_PID = 0x02D2
     HAS_MATRIX = True
     WAVE_DIRS = (1, 2)
     MATRIX_DIMS = [6, 18]
@@ -1018,12 +1019,12 @@ class RazerBlackWidowV4LPTKLWired(_RippleKeyboard):
     DEVICE_IMAGE = "https://dl.razerzone.com/src2/15492/15492-1-en-v1.png"
 
 
-class RazerBlackWidowV4LPTKLWireless(RazerBlackWidowV4TKLWired):
+class RazerBlackWidowV4LPTKLWired(RazerBlackWidowV4TKLWired):
     """
-    Class for the Razer BlackWidow V4 Low-Profile Tenkeyless HyperSpeed Wireless
+    Class for the Razer BlackWidow V4 Low-Profile Tenkeyless HyperSpeed Wired
     """
-    EVENT_FILE_REGEX = re.compile(r'.*Razer_Razer_BlackWidow_V4_Low-profile_Tenkeyless_HyperSpeed(_\d+)?-event-kbd')
-    USB_PID = 0x02D2
+    EVENT_FILE_REGEX = re.compile(r'.*Razer_Razer_BlackWidow_V4_Low-profile_Tenkeyless_HyperSpeed(-if01)?-event-kbd')
+    USB_PID = 0x02D4
 
 class RazerBlackWidowV3(_RippleKeyboard):
     """

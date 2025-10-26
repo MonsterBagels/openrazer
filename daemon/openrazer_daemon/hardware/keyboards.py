@@ -1015,10 +1015,10 @@ class RazerBlackWidowV4LPTKLWired(_RippleKeyboard):
                'set_wave_effect', 'set_custom_effect', 'set_none_effect', 'set_key_row', 'get_game_mode', 'set_game_mode', 
                'get_poll_rate', 'set_poll_rate', 'get_supported_poll_rates', 'get_battery', 'is_charging']
 
-    DEVICE_IMAGE = "https://dl.razerzone.com/src2/15142/15142-1-en-v1.png"
+    DEVICE_IMAGE = "https://dl.razerzone.com/src2/15492/15492-1-en-v1.png"
 
 
-class RazerBlackWidowV4LPTKLWired(RazerBlackWidowV4TKLWired):
+class RazerBlackWidowV4LPTKLWireless(RazerBlackWidowV4TKLWired):
     """
     Class for the Razer BlackWidow V4 Low-Profile Tenkeyless HyperSpeed Wireless
     """
